@@ -341,27 +341,509 @@ function load(){
 }
 
 // EN songs
+const en_1990_m_icon = [
+	'easy',
+	'medium',
+	'hard'
+];
 
+const EN_1990_M_PACK_1 = 1;
+const EN_1990_M_PACK_2 = 2;
+const EN_1990_M_PACK_3 = 3;
+
+let en_1990_m = [
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Sin With Sebastian',
+			song : "Shut Up (And Sleep With Me)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Robert Miles',
+			song : "One And One"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Coolio',
+			song : "Gangsta's Paradise (ft LV)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Robert Miles',
+			song : "Children"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Will Smith',
+			song : "Men in black"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Enrique Iglesias',
+			song : "Bailamos"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Bruce Springsteen',
+			song : "Streets of Philadelphia"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Seal',
+			song : "Kiss From A Rose"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Eagle-Eye Cherry',
+			song : "Save Tonight"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Eagle-Eye Cherry',
+			song : "Indecision"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Haddaway',
+			song : "Life"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Haddaway',
+			song : "I Miss You"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Fatboy Slim',
+			song : "The Rockafeller Skank"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Michael Bolton',
+			song : "Can I Touch You...There?"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Lenny Kravitz',
+			song : "Fly Away"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Joe Cocker',
+			song : "N'Oubliez Jamais"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Paul McCartney',
+			song : "Hope Of Deliverance"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Marc Anthony',
+			song : "When I Dream At Night"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Maxi Priest',
+			song : "Close To You"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Snoop Dogg',
+			song : "Jin & Guice"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Chris Isaak',
+			song : "Somebody's Crying"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Tom Petty',
+			song : "Mary Jane's Last Dance (ft The Heartbreakers)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Chris Rea',
+			song : "The Blue Cafe"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Ronan Keating',
+			song : "When You Say Nothing At All"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'David Gray',
+			song : "Sail Away"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'George Michael',
+			song : "The Strangest Thing"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : '2Pac',
+			song : "California Love (ft Dr. Dre, Roger Troutman)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Vanilla Ice',
+			song : "Ice Ice Baby"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'MC Hammer',
+			song : "U Can't Touch This"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Guru Josh',
+			song : "Infinity"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "It's My Life"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "Let The Beat Go On"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Snow',
+			song : "Informer"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Ini Kamoze',
+			song : "Here Comes the Hotstepper"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'George Michael',
+			song : "Jesus to a Child"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'George Michael',
+			song : "Roxanne"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Prince',
+			song : "The most beautiful girl in the world"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Prince',
+			song : "Cream"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Edwyn Collins',
+			song : "A Girl Like You"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Beck',
+			song : "Where It's At"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Beck',
+			song : "Loser"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Andrea Bocelli',
+			song : "Con Te Partiro"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Rod Stewart',
+			song : "Have I Told You Lately"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Richard Marx',
+			song : "Now And Forever"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Ricky Martin',
+			song : "The Cup of Life"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Ricky Martin',
+			song : "Livin' la Vida Loca"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Shaggy',
+			song : "Boombastic"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Carlos Santana',
+			song : "Smooth (ft Rob Thomas)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Carlos Santana',
+			song : "Corazon Espinado"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Khaled',
+			song : "Aisha"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Candle In The Wind"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Circle Of Life"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "The One"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Bryan Adams',
+			song : "Please Forgive Me"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Bryan Adams',
+			song : "(Everything I Do) I Do It For You"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Bryan Adams',
+			song : "Have You Ever Really Loved A Woman?"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Michael Jackson',
+			song : "Scream (ft Janet Jackson)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Michael Jackson',
+			song : "You Are Not Alone"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Michael Jackson',
+			song : "They Don't Care About Us"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Sting',
+			song : "Fields Of Gold"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Sting',
+			song : "Desert Rose"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Sting',
+			song : "Shape Of My Heart"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'R. Kelly',
+			song : "I Believe I Can Fly"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Phil Collins',
+			song : 'Another day in paradise',
+			state: ' по Коллинзу'
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Eric Clapton',
+			song : 'Tears in heaven',
+			state: ' по Клэптену'
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Robbie Williams',
+			song : "Freedom"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Robbie Williams',
+			song : "South Of The Border"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Robbie Williams',
+			song : "No Regrets"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Moby',
+			song : "Natural Blues"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Moby',
+			song : "Porcelain"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Fatboy Slim',
+			song : "Praise You"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Seal',
+			song : "Crazy"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Ricky Martin',
+			song : "Private Emotion (ft Meja)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Eric Clapton',
+			song : "Over The Rainbow"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Michael Bolton',
+			song : "When a Man Loves a Woman"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Lenny Kravitz',
+			song : "Are You Gonna Go My Way"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Chris Isaak',
+			song : "Wicked Game"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Ozzy Osbourne',
+			song : "Mama, I'm Coming Home"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Ozzy Osbourne',
+			song : "See You on the Other Side"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Youssou NDour',
+			song : "7 Seconds (ft Neneh Cherry)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Everlast',
+			song : "Put your lights on (ft Santana)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Everlast',
+			song : "What Its Like"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Everlast',
+			song : "Ends"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Fatboy Slim',
+			song : "Right Here Right Now"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'ATB',
+			song : "9 PM - Till I Come"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'ATB',
+			song : "Don’t Stop"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'ATB',
+			song : "Killer"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Snoop Dogg',
+			song : "Who Am I (What's My Name?)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Snoop Dogg',
+			song : "Still A G Thang"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Paul Van Dyk',
+			song : "For an Angel"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Haddaway',
+			song : "Rock My Heart"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'E-Type',
+			song : "Do You Always (Have To Be Alone)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Lenny Kravitz',
+			song : "Believe"
+		}
+];
+
+let en_1990_m_1 =	en_1990_m.filter(item => item.pack == 1);
+let en_1990_m_2 =	en_1990_m.filter(item => item.pack == 2);
+let en_1990_m_3 =	en_1990_m.filter(item => item.pack == 3);
 
 
 let music = [
 	{
-		arr: en_2000_m,
+		arr: en_1990_m,
 		lang: 'en',
-		year: '2000',
+		year: '1990',
 		type: 'm',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
+					arr: en_1990_m_1,
+					name: 'EN 1990s Male: Easy',
 				},
 				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
+					arr: en_1990_m_2,
+					name: 'EN 1990s Male: Medium',
 				},
 				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: en_1990_m_3,
+					name: 'EN 1990s Male: Hard',
 				}
 			]
 	}
@@ -688,14 +1170,14 @@ let generateImgPath;
 
 function setup(){
 	lang = 'en';
-	year = '2000';
+	year = '1990';
 	artist_type = 'm';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = en_1990_m_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
