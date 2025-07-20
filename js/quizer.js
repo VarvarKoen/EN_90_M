@@ -819,6 +819,31 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_3,
 			group : 'Lenny Kravitz',
 			song : "Believe"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Kiss From A Rose"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Kiss From A Rose"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Lonely (1997)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Too Much Heaven (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "He's Comin' (1997)"
 		}
 ];
 
