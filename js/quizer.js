@@ -822,13 +822,8 @@ let en_1990_m = [
 		},
 		{
 			pack : EN_1990_M_PACK_2,
-			group : 'Nana (Darkman)',
-			song : "Kiss From A Rose"
-		},
-		{
-			pack : EN_1990_M_PACK_2,
-			group : 'Nana (Darkman)',
-			song : "Kiss From A Rose"
+			group : 'Darude',
+			song : "Sandstorm (1999)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
