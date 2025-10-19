@@ -849,6 +849,21 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_1,
 			group : 'DJ Bobo',
 			song : "Somebody Dance With Me (1992)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'DMX',
+			song : "Ruff Ryders' Anthem (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'DMX',
+			song : "I Can Feel It (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'DMX',
+			song : "What's My Name? (1999)"
 		}
 ];
 
