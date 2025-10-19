@@ -839,6 +839,16 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_2,
 			group : 'Nana (Darkman)',
 			song : "He's Comin' (1997)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'DJ Bobo',
+			song : "Love Is All Around (1995)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'DJ Bobo',
+			song : "Somebody Dance With Me (1992)"
 		}
 ];
 
