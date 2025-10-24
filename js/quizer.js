@@ -456,7 +456,7 @@ let en_1990_m = [
 			song : "Jin & Guice"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Chris Isaak',
 			song : "Somebody's Crying"
 		},
@@ -499,7 +499,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'MC Hammer',
-			song : "U Can't Touch This"
+			song : "U Can't Touch This",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_3,
