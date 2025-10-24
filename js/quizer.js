@@ -979,6 +979,21 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_3,
 			group : 'LL COOL J',
 			song : "Around the Way Girl (1990)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Dr. Dre',
+			song : "Still D.R.E. (ft Snoop Dogg) (1999)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Dr. Dre',
+			song : "Keep Their Heads Ringin' (1995)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Dr. Dre',
+			song : "Nuthin' but a 'G' Thang (ft Snoop Dogg) (1993)"
 		}
 ];
 
