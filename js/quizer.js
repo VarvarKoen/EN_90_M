@@ -949,6 +949,36 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_3,
 			group : 'Nas',
 			song : "If I Ruled the World (Imagine That) (ft Lauryn Hill) (1996)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Notorious B.I.G.',
+			song : "Juicy (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Notorious B.I.G.',
+			song : "Big Poppa (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Notorious B.I.G.',
+			song : "Hypnotize (1997)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'LL COOL J',
+			song : "Loungin (Who Do Ya Luv) (1996)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'LL COOL J',
+			song : "Mama Said Knock You Out (1991)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'LL COOL J',
+			song : "Around the Way Girl (1990)"
 		}
 ];
 
