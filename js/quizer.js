@@ -343,9 +343,9 @@ function load(){
 
 // EN songs
 const en_1990_m_icon = [
-	'easy',
 	'medium',
-	'hard'
+	'hard',
+	'rap'
 ];
 
 const EN_1990_M_PACK_1 = 1;
@@ -376,12 +376,14 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Will Smith',
-			song : "Men in black"
+			song : "Men in black",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Enrique Iglesias',
-			song : "Bailamos"
+			song : "Bailamos",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -391,7 +393,7 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Seal',
-			song : "Kiss From A Rose"
+			song : "Kiss From A Rose (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -414,7 +416,7 @@ let en_1990_m = [
 			song : "I Miss You"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Fatboy Slim',
 			song : "The Rockafeller Skank"
 		},
@@ -424,7 +426,7 @@ let en_1990_m = [
 			song : "Can I Touch You...There?"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
 			song : "Fly Away"
 		},
@@ -444,7 +446,7 @@ let en_1990_m = [
 			song : "When I Dream At Night"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Maxi Priest',
 			song : "Close To You"
 		},
@@ -459,12 +461,12 @@ let en_1990_m = [
 			song : "Somebody's Crying"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Tom Petty',
 			song : "Mary Jane's Last Dance (ft The Heartbreakers)"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_1,
 			group : 'Chris Rea',
 			song : "The Blue Cafe"
 		},
@@ -491,7 +493,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Vanilla Ice',
-			song : "Ice Ice Baby"
+			song : "Ice Ice Baby",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -501,17 +504,19 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Guru Josh',
-			song : "Infinity"
+			song : "Infinity",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Dr Alban',
-			song : "It's My Life"
+			song : "It's My Life",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Dr Alban',
-			song : "Let The Beat Go On"
+			song : "Let The Beat Go On (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -519,7 +524,7 @@ let en_1990_m = [
 			song : "Informer"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Ini Kamoze',
 			song : "Here Comes the Hotstepper"
 		},
@@ -534,17 +539,17 @@ let en_1990_m = [
 			song : "Roxanne"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Prince',
 			song : "The most beautiful girl in the world"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Prince',
 			song : "Cream"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Edwyn Collins',
 			song : "A Girl Like You"
 		},
@@ -561,42 +566,48 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Andrea Bocelli',
-			song : "Con Te Partiro"
+			song : "Con Te Partiro",
+			ignore : true
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Rod Stewart',
 			song : "Have I Told You Lately"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Richard Marx',
 			song : "Now And Forever"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Ricky Martin',
-			song : "The Cup of Life"
+			song : "The Cup of Life",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Ricky Martin',
-			song : "Livin' la Vida Loca"
+			song : "Livin' la Vida Loca",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Shaggy',
-			song : "Boombastic"
+			song : "Boombastic",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Carlos Santana',
-			song : "Smooth (ft Rob Thomas)"
+			song : "Smooth (ft Rob Thomas)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Carlos Santana',
-			song : "Corazon Espinado"
+			song : "Corazon Espinado",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -606,32 +617,38 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Elton John',
-			song : "Candle In The Wind"
+			song : "Candle In The Wind",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Elton John',
-			song : "Circle Of Life"
+			song : "Circle Of Life",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Elton John',
-			song : "The One"
+			song : "The One",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Bryan Adams',
-			song : "Please Forgive Me"
+			song : "Please Forgive Me",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Bryan Adams',
-			song : "(Everything I Do) I Do It For You"
+			song : "(Everything I Do) I Do It For You",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Bryan Adams',
-			song : "Have You Ever Really Loved A Woman?"
+			song : "Have You Ever Really Loved A Woman?",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -651,17 +668,20 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Sting',
-			song : "Fields Of Gold"
+			song : "Fields Of Gold",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Sting',
-			song : "Desert Rose"
+			song : "Desert Rose",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Sting',
-			song : "Shape Of My Heart"
+			song : "Shape Of My Heart",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -698,27 +718,30 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Moby',
-			song : "Natural Blues"
+			song : "Natural Blues",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Moby',
-			song : "Porcelain"
+			song : "Porcelain",
+			ignore : true
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Fatboy Slim',
 			song : "Praise You"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Seal',
-			song : "Crazy"
+			song : "Crazy (1990)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Ricky Martin',
-			song : "Private Emotion (ft Meja)"
+			song : "Private Emotion (ft Meja)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -731,62 +754,62 @@ let en_1990_m = [
 			song : "When a Man Loves a Woman"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
 			song : "Are You Gonna Go My Way"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Chris Isaak',
 			song : "Wicked Game"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Ozzy Osbourne',
 			song : "Mama, I'm Coming Home"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_1,
 			group : 'Ozzy Osbourne',
 			song : "See You on the Other Side"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Youssou NDour',
 			song : "7 Seconds (ft Neneh Cherry)"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Everlast',
 			song : "Put your lights on (ft Santana)"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Everlast',
 			song : "What Its Like"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Everlast',
 			song : "Ends"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Fatboy Slim',
 			song : "Right Here Right Now"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'ATB',
 			song : "9 PM - Till I Come"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'ATB',
 			song : "Don’t Stop"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'ATB',
 			song : "Killer"
 		},
@@ -801,9 +824,9 @@ let en_1990_m = [
 			song : "Still A G Thang"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Paul Van Dyk',
-			song : "For an Angel"
+			song : "For an Angel (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -813,10 +836,11 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'E-Type',
-			song : "Do You Always (Have To Be Alone)"
+			song : "Do You Always (Have To Be Alone)",
+			ignore : true
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
 			song : "Believe"
 		},
@@ -864,6 +888,66 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_3,
 			group : 'DMX',
 			song : "What's My Name? (1999)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "Enemies (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'Dr Alban',
+			song : "Long Time Ago (1997)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Will Smith',
+			song : "Gettin' Jiggy Wit It (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Will Smith',
+			song : "Wild Wild West (ft Dru Hill and Kool Moe Dee) (1999)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Seal',
+			song : "Killer (1990)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : '2Pac',
+			song : "Keep Ya Head Up (1993)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : '2Pac',
+			song : "Changes (ft Talent) (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Ice Cube',
+			song : "It Was a Good Day (1993)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Ice Cube',
+			song : "You Know How We Do It (1993)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Nas',
+			song : "The World Is Yours (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Nas',
+			song : "The Message (1996)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Nas',
+			song : "If I Ruled the World (Imagine That) (ft Lauryn Hill) (1996)"
 		}
 ];
 
@@ -881,15 +965,15 @@ let music = [
 		packs: [
 				{
 					arr: en_1990_m_1,
-					name: 'EN 1990s Male: Easy',
-				},
-				{
-					arr: en_1990_m_2,
 					name: 'EN 1990s Male: Medium',
 				},
 				{
-					arr: en_1990_m_3,
+					arr: en_1990_m_2,
 					name: 'EN 1990s Male: Hard',
+				},
+				{
+					arr: en_1990_m_3,
+					name: 'EN 1990s Male: Rap',
 				}
 			]
 	}
