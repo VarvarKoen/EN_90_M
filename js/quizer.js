@@ -994,6 +994,11 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_3,
 			group : 'Dr. Dre',
 			song : "Nuthin' but a 'G' Thang (ft Snoop Dogg) (1993)"
+		},
+		{
+			pack : EN_1990_M_PACK_1,
+			group : 'DJ Bobo',
+			song : "Let the Dream Come True (1994)"
 		}
 ];
 
