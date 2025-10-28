@@ -858,7 +858,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Nana (Darkman)',
-			song : "Too Much Heaven (1998)"
+			song : "Too Much Heaven (1998)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -999,6 +1000,11 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_1,
 			group : 'DJ Bobo',
 			song : "Let the Dream Come True (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Nana (Darkman)',
+			song : "Remember the Time (1998)"
 		}
 ];
 
