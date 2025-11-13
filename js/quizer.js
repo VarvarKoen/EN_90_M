@@ -1005,6 +1005,11 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_2,
 			group : 'Nana (Darkman)',
 			song : "Remember the Time (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Warren G',
+			song : "Regulate (ft Nate Dogg) (1994)"
 		}
 ];
 
