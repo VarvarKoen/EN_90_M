@@ -345,16 +345,18 @@ function load(){
 const en_1990_m_icon = [
 	'medium',
 	'hard',
-	'rap'
+	'rap',
+	'pop'
 ];
 
 const EN_1990_M_PACK_1 = 1;
 const EN_1990_M_PACK_2 = 2;
 const EN_1990_M_PACK_3 = 3;
+const EN_1990_M_PACK_4 = 4;
 
 let en_1990_m = [
 		{
-			pack : EN_1990_M_PACK_1,
+			pack : EN_1990_M_PACK_4,
 			group : 'Sin With Sebastian',
 			song : "Shut Up (And Sleep With Me)"
 		},
@@ -364,7 +366,7 @@ let en_1990_m = [
 			song : "One And One"
 		},
 		{
-			pack : EN_1990_M_PACK_1,
+			pack : EN_1990_M_PACK_4,
 			group : 'Coolio',
 			song : "Gangsta's Paradise (ft LV)"
 		},
@@ -446,7 +448,7 @@ let en_1990_m = [
 			song : "When I Dream At Night"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_4,
 			group : 'Maxi Priest',
 			song : "Close To You"
 		},
@@ -476,7 +478,7 @@ let en_1990_m = [
 			song : "When You Say Nothing At All"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_4,
 			group : 'David Gray',
 			song : "Sail Away"
 		},
@@ -520,12 +522,12 @@ let en_1990_m = [
 			song : "Let The Beat Go On (1994)"
 		},
 		{
-			pack : EN_1990_M_PACK_1,
+			pack : EN_1990_M_PACK_4,
 			group : 'Snow',
 			song : "Informer"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_4,
 			group : 'Ini Kamoze',
 			song : "Here Comes the Hotstepper"
 		},
@@ -550,7 +552,7 @@ let en_1990_m = [
 			song : "Cream"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_4,
 			group : 'Edwyn Collins',
 			song : "A Girl Like You"
 		},
@@ -611,7 +613,7 @@ let en_1990_m = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_M_PACK_1,
+			pack : EN_1990_M_PACK_4,
 			group : 'Khaled',
 			song : "Aisha"
 		},
@@ -685,21 +687,19 @@ let en_1990_m = [
 			ignore : true
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_4,
 			group : 'R. Kelly',
 			song : "I Believe I Can Fly"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Phil Collins',
-			song : 'Another day in paradise',
-			state: ' по Коллинзу'
+			song : 'Another day in paradise'
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Eric Clapton',
-			song : 'Tears in heaven',
-			state: ' по Клэптену'
+			song : 'Tears in heaven'
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -775,7 +775,7 @@ let en_1990_m = [
 			song : "See You on the Other Side"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_4,
 			group : 'Youssou NDour',
 			song : "7 Seconds (ft Neneh Cherry)"
 		},
@@ -846,7 +846,7 @@ let en_1990_m = [
 			song : "Believe"
 		},
 		{
-			pack : EN_1990_M_PACK_2,
+			pack : EN_1990_M_PACK_4,
 			group : 'Darude',
 			song : "Sandstorm (1999)"
 		},
@@ -1016,6 +1016,7 @@ let en_1990_m = [
 let en_1990_m_1 =	en_1990_m.filter(item => item.pack == 1);
 let en_1990_m_2 =	en_1990_m.filter(item => item.pack == 2);
 let en_1990_m_3 =	en_1990_m.filter(item => item.pack == 3);
+let en_1990_m_4 =	en_1990_m.filter(item => item.pack == 4);
 
 
 let music = [
@@ -1036,6 +1037,10 @@ let music = [
 				{
 					arr: en_1990_m_3,
 					name: 'EN 1990s Male: Rap',
+				},
+				{
+					arr: en_1990_m_4,
+					name: 'EN 1990s Male: One Hit Wonder',
 				}
 			]
 	}
@@ -1049,6 +1054,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1387,6 +1393,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
