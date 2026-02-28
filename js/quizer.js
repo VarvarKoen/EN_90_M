@@ -1010,6 +1010,31 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_3,
 			group : 'Warren G',
 			song : "Regulate (ft Nate Dogg) (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_4,
+			group : 'Sir Mix-a-Lot',
+			song : "Baby Got Back (1992)"
+		},
+		{
+			pack : EN_1990_M_PACK_4,
+			group : 'Montell Jordan',
+			song : "This Is How We Do It (1995)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Can You Feel the Love Tonight (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Circle of Life (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Believe (ft Paul Buckmaster) (1995)"
 		}
 ];
 
