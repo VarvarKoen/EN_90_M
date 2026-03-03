@@ -889,7 +889,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'DMX',
-			song : "What's My Name? (1999)"
+			song : "What's My Name? (1999)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -909,7 +910,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Will Smith',
-			song : "Wild Wild West (ft Dru Hill and Kool Moe Dee) (1999)"
+			song : "Wild Wild West (ft Dru Hill and Kool Moe Dee) (1999)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -969,17 +971,20 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'LL COOL J',
-			song : "Loungin (Who Do Ya Luv) (1996)"
+			song : "Loungin (Who Do Ya Luv) (1996)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'LL COOL J',
-			song : "Mama Said Knock You Out (1991)"
+			song : "Mama Said Knock You Out (1991)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'LL COOL J',
-			song : "Around the Way Girl (1990)"
+			song : "Around the Way Girl (1990)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_3,
@@ -994,7 +999,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Dr. Dre',
-			song : "Nuthin' but a 'G' Thang (ft Snoop Dogg) (1993)"
+			song : "Nuthin' but a 'G' Thang (ft Snoop Dogg) (1993)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -1009,7 +1015,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Warren G',
-			song : "Regulate (ft Nate Dogg) (1994)"
+			song : "Regulate (ft Nate Dogg) (1994)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_4,
