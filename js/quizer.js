@@ -420,7 +420,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Fatboy Slim',
-			song : "The Rockafeller Skank"
+			song : "The Rockafeller Skank",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -460,32 +461,33 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Chris Isaak',
-			song : "Somebody's Crying"
+			song : "Somebody's Crying (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Tom Petty',
-			song : "Mary Jane's Last Dance (ft The Heartbreakers)"
+			song : "Mary Jane's Last Dance (ft The Heartbreakers)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Chris Rea',
-			song : "The Blue Cafe"
+			song : "The Blue Cafe (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Ronan Keating',
-			song : "When You Say Nothing At All"
+			song : "When You Say Nothing At All (1999)"
 		},
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'David Gray',
-			song : "Sail Away"
+			song : "Sail Away (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'George Michael',
-			song : "The Strangest Thing"
+			song : "The Strangest Thing (1996)"
 		},
 		{
 			pack : EN_1990_M_PACK_3,
@@ -656,17 +658,20 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Michael Jackson',
-			song : "Scream (ft Janet Jackson)"
+			song : "Scream (ft Janet Jackson)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Michael Jackson',
-			song : "You Are Not Alone"
+			song : "You Are Not Alone",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Michael Jackson',
-			song : "They Don't Care About Us"
+			song : "They Don't Care About Us",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -731,7 +736,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Fatboy Slim',
-			song : "Praise You"
+			song : "Praise You",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -762,7 +768,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Chris Isaak',
-			song : "Wicked Game"
+			song : "Wicked Game",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -797,7 +804,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Fatboy Slim',
-			song : "Right Here Right Now"
+			song : "Right Here Right Now",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
