@@ -358,22 +358,22 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Sin With Sebastian',
-			song : "Shut Up (And Sleep With Me)"
+			song : "Shut Up (And Sleep With Me) (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Robert Miles',
-			song : "One And One"
+			song : "One And One (1996)"
 		},
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Coolio',
-			song : "Gangsta's Paradise (ft LV)"
+			song : "Gangsta's Paradise (ft LV) (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Robert Miles',
-			song : "Children"
+			song : "Children (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -390,7 +390,7 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Bruce Springsteen',
-			song : "Streets of Philadelphia"
+			song : "Streets of Philadelphia (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -400,22 +400,22 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Eagle-Eye Cherry',
-			song : "Save Tonight"
+			song : "Save Tonight (1997)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Eagle-Eye Cherry',
-			song : "Indecision"
+			song : "Indecision (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Haddaway',
-			song : "Life"
+			song : "Life (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Haddaway',
-			song : "I Miss You"
+			song : "I Miss You (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -426,37 +426,37 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Michael Bolton',
-			song : "Can I Touch You...There?"
+			song : "Can I Touch You...There? (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
-			song : "Fly Away"
+			song : "Fly Away (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Joe Cocker',
-			song : "N'Oubliez Jamais"
+			song : "N'Oubliez Jamais (1997)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Paul McCartney',
-			song : "Hope Of Deliverance"
+			song : "Hope Of Deliverance (1992)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Marc Anthony',
-			song : "When I Dream At Night"
+			song : "When I Dream At Night (1999)"
 		},
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Maxi Priest',
-			song : "Close To You"
+			song : "Close To You (1990)"
 		},
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Snoop Dogg',
-			song : "Jin & Guice"
+			song : "Jin & Juice (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -492,7 +492,7 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_3,
 			group : '2Pac',
-			song : "California Love (ft Dr. Dre, Roger Troutman)"
+			song : "California Love (ft Dr. Dre, Roger Troutman) (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -526,47 +526,47 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Snow',
-			song : "Informer"
+			song : "Informer (1992)"
 		},
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Ini Kamoze',
-			song : "Here Comes the Hotstepper"
+			song : "Here Comes the Hotstepper (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'George Michael',
-			song : "Jesus to a Child"
+			song : "Jesus to a Child (1996)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'George Michael',
-			song : "Roxanne"
+			song : "Roxanne (1999)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Prince',
-			song : "The most beautiful girl in the world"
+			song : "The most beautiful girl in the world (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Prince',
-			song : "Cream"
+			song : "Cream (1991)"
 		},
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Edwyn Collins',
-			song : "A Girl Like You"
+			song : "A Girl Like You (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Beck',
-			song : "Where It's At"
+			song : "Where It's At (1996)"
 		},
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Beck',
-			song : "Loser"
+			song : "Loser (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_3,
@@ -577,12 +577,12 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Rod Stewart',
-			song : "Have I Told You Lately"
+			song : "Have I Told You Lately (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Richard Marx',
-			song : "Now And Forever"
+			song : "Now And Forever (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -617,7 +617,7 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Khaled',
-			song : "Aisha"
+			song : "Aisha (1996)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -694,32 +694,33 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'R. Kelly',
-			song : "I Believe I Can Fly"
+			song : "I Believe I Can Fly (1996)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Phil Collins',
-			song : 'Another day in paradise'
+			song : 'Another day in paradise (1989)',
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Eric Clapton',
-			song : 'Tears in heaven'
+			song : 'Tears in heaven (1992)'
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Robbie Williams',
-			song : "Freedom"
+			song : "Freedom (1996)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Robbie Williams',
-			song : "South Of The Border"
+			song : "South Of The Border (1997)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Robbie Williams',
-			song : "No Regrets"
+			song : "No Regrets (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -753,17 +754,18 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Eric Clapton',
-			song : "Over The Rainbow"
+			song : "Over The Rainbow (2002)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Michael Bolton',
-			song : "When a Man Loves a Woman"
+			song : "When a Man Loves a Woman (1991)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
-			song : "Are You Gonna Go My Way"
+			song : "Are You Gonna Go My Way (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -774,32 +776,32 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Ozzy Osbourne',
-			song : "Mama, I'm Coming Home"
+			song : "Mama, I'm Coming Home (1991)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Ozzy Osbourne',
-			song : "See You on the Other Side"
+			song : "See You on the Other Side (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_4,
 			group : 'Youssou NDour',
-			song : "7 Seconds (ft Neneh Cherry)"
+			song : "7 Seconds (ft Neneh Cherry) (1994)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Everlast',
-			song : "Put your lights on (ft Santana)"
+			song : "Put your lights on (ft Santana) (1999)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Everlast',
-			song : "What Its Like"
+			song : "What Its Like (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Everlast',
-			song : "Ends"
+			song : "Ends (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -810,27 +812,27 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'ATB',
-			song : "9 PM - Till I Come"
+			song : "9 PM - Till I Come (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'ATB',
-			song : "Don’t Stop"
+			song : "Don’t Stop (1999)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'ATB',
-			song : "Killer"
+			song : "Killer (1999)"
 		},
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Snoop Dogg',
-			song : "Who Am I (What's My Name?)"
+			song : "Who Am I (What's My Name?) (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_3,
 			group : 'Snoop Dogg',
-			song : "Still A G Thang"
+			song : "Still A G Thang (1998)"
 		},
 		{
 			pack : EN_1990_M_PACK_2,
@@ -840,7 +842,7 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_1,
 			group : 'Haddaway',
-			song : "Rock My Heart"
+			song : "Rock My Heart (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -851,7 +853,7 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
-			song : "Believe"
+			song : "Believe (1993)"
 		},
 		{
 			pack : EN_1990_M_PACK_4,
