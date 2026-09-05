@@ -1050,6 +1050,11 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_2,
 			group : 'Elton John',
 			song : "Believe (ft Paul Buckmaster) (1995)"
+		},
+		{
+			pack : EN_1990_M_PACK_4,
+			group : "Israel Kamakawiwoʻole",
+			song : "Somewhere Over the Rainbow (1990)"
 		}
 ];
 
