@@ -569,10 +569,9 @@ let en_1990_m = [
 			song : "Loser (1993)"
 		},
 		{
-			pack : EN_1990_M_PACK_3,
+			pack : EN_1990_M_PACK_4,
 			group : 'Andrea Bocelli',
-			song : "Con Te Partiro",
-			ignore : true
+			song : "Con Te Partiro (1995)"
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -765,7 +764,8 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
-			song : "Are You Gonna Go My Way (1993)"
+			song : "Are You Gonna Go My Way (1993)",
+			ignore : true
 		},
 		{
 			pack : EN_1990_M_PACK_1,
@@ -1057,6 +1057,11 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_4,
 			group : "Israel Kamakawiwoʻole",
 			song : "Somewhere Over the Rainbow (1990)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Lenny Kravitz',
+			song : "Belong To You (1998)"
 		}
 ];
 
