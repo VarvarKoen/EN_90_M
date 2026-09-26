@@ -1041,11 +1041,6 @@ let en_1990_m = [
 		{
 			pack : EN_1990_M_PACK_2,
 			group : 'Elton John',
-			song : "Can You Feel the Love Tonight (1994)"
-		},
-		{
-			pack : EN_1990_M_PACK_2,
-			group : 'Elton John',
 			song : "Circle of Life (1994)"
 		},
 		{
@@ -1062,6 +1057,11 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_2,
 			group : 'Lenny Kravitz',
 			song : "Belong To You (1998)"
+		},
+		{
+			pack : EN_1990_M_PACK_2,
+			group : 'Elton John',
+			song : "Can You Feel the Love Tonight (1994)"
 		}
 ];
 
