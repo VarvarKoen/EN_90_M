@@ -1062,6 +1062,11 @@ let en_1990_m = [
 			pack : EN_1990_M_PACK_2,
 			group : 'Elton John',
 			song : "Can You Feel the Love Tonight (1994)"
+		},
+		{
+			pack : EN_1990_M_PACK_3,
+			group : 'Busta Rhymes',
+			song : "Turn It Up (1998)"
 		}
 ];
 
